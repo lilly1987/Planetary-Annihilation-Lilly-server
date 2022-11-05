@@ -1,0 +1,21 @@
+{
+  "context": "server",
+  "identifier": "com.pa.lilly.mod.server",
+  "display_name": "lilly mod galactic_war",
+  "description": "lilly mod",
+  "author": "lilly",
+  "version": "1.1.1",
+  "build": "116400",
+  "date": "2022-11-05",
+  "signature": " ",
+  "forum": "https://github.com/lilly1987/Planetary-Annihilation-Lilly-Mod/",
+  "priority": 100,
+  "category": [
+	"gw",
+	"units",
+    "titans"
+  ],
+  "titansOnly": true,
+  "enabled": true,
+  "github": "https://github.com/lilly1987/Planetary-Annihilation-Lilly-Mod/"
+}
