@@ -2,7 +2,7 @@
   "context": "server",
   "identifier": "com.pa.lilly.mod.server",
   "display_name": "lilly mod server",
-  "description": "lilly mod",
+  "description": "lilly mod server",
   "author": "lilly",
   "version": "1.1.1",
   "build": "116400",
@@ -12,29 +12,43 @@
   "priority": 100,
   "category": [
 	"gw",
+    "server",
+    "faction",
 	"units",
+    "bugs",
     "titans"
   ],
   "icon": "https://raw.githubusercontent.com/Legion-Expansion/Legion-Expansion/balance/icon.png",
   "titansOnly": true,
   "enabled": true,
   "github": "https://github.com/lilly1987/Planetary-Annihilation-Lilly-Mod/",
-  "dependencies": [
-    "com.pa.quitch.qAIModCompatibilityPatch",
-    "com.pa.legion-expansion-client"
-  ],
-  "companions": [
-    "com.pa.legion-expansion-client"
-  ],
+
   "scenes": {
-    "shared_build": [
-      "coui://ui/mods/com.pa.legion-expansion/shared_build.js"
+    "settings": [
+      "coui://ui/mods/bugs_faction/settings.js"
+    ],
+    "start": [
+      "coui://ui/mods/bugs_faction/start.js"
     ],
     "icon_atlas": [
-      "coui://ui/mods/com.pa.legion-expansion/icon_atlas.js"
+      "coui://ui/mods/com.pa.legion-expansion/icon_atlas.js",
+      "coui://ui/mods/bugs_faction/icon_atlas.js"
+    ],
+    "shared_build": [
+      "coui://ui/mods/com.pa.legion-expansion/shared_build.js",
+      "coui://ui/mods/bugs_faction/shared_build.js"
+    ],
+
+    "live_game_build_bar": [
+      "coui://ui/mods/bugs_faction/live_build_bar.js"
+    ],
+    "live_game": [
+      "coui://ui/mods/bugs_faction/research.js",
+      "coui://ui/mods/bugs_faction/research_live_game.js",
+      "coui://ui/mods/bugs_faction/live_game/selection_audio.js"
     ],
     "new_game": [
       "coui://ui/mods/com.pa.legion-expansion/new_game.js"
     ]
-  },
+  }
 }
