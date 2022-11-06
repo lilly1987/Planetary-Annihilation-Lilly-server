@@ -1,5 +1,5 @@
 {
-  "context": "server",
+  "context": "client",
   "identifier": "com.pa.lilly.mod.server",
   "display_name": "lilly mod server",
   "description": "lilly mod",
@@ -13,28 +13,69 @@
   "category": [
 	"gw",
 	"units",
-    "titans"
+    "titans",
+     "faction"
   ],
   "icon": "https://raw.githubusercontent.com/Legion-Expansion/Legion-Expansion/balance/icon.png",
   "titansOnly": true,
   "enabled": true,
   "github": "https://github.com/lilly1987/Planetary-Annihilation-Lilly-Mod/",
   "dependencies": [
-    "com.pa.quitch.qAIModCompatibilityPatch",
-    "com.pa.legion-expansion-client"
+    "com.pa.quitch.qAIModCompatibilityPatch"
   ],
   "companions": [
-    "com.pa.legion-expansion-client"
-  ],
+ ],
   "scenes": {
-    "shared_build": [
-      "coui://ui/mods/com.pa.legion-expansion/shared_build.js"
-    ],
     "icon_atlas": [
       "coui://ui/mods/com.pa.legion-expansion/icon_atlas.js"
     ],
+    "settings": [
+      "coui://ui/mods/com.pa.legion-expansion/settings.js"
+    ],
+    "shared_build": [
+      "coui://ui/mods/com.pa.legion-expansion/shared_build.js"
+    ],
+    "live_game_players": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_players.js"
+    ],
+    "live_game_planets": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_planets.js"
+    ],
+    "live_game_control_group_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_control_group_bar.js"
+    ],
+    "live_game_options_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_options_bar.js"
+    ],
+    "live_game_econ": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_econ.js"
+    ],
+    "live_game_time_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_time_bar.js"
+    ],
+    "live_game_build_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_build_bar.js"
+    ],
+    "live_game_build_hover": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_build_hover.js"
+    ],
+    "live_game_action_bar": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_action_bar.js"
+    ],
+    "live_game_selection": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_selection.js"
+    ],
+    "live_game_sandbox": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_sandbox.js"
+    ],
+    "live_game_menu": [
+      "coui://ui/mods/com.pa.legion-expansion/live_game_menu.js"
+    ],
     "new_game": [
       "coui://ui/mods/com.pa.legion-expansion/new_game.js"
+    ],
+    "start": [
+      "coui://ui/mods/com.pa.legion-expansion/start.js"
     ]
   },
   "hidden": false

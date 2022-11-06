@@ -57,9 +57,9 @@
 		"type": "amphibious",
 		"acceleration": 60,
 		"brake": -1,
-		"move_speed": 6,
-		"turn_speed": 90,
-		"turn_in_place": false,
+    "move_speed": 8,
+    "turn_speed": 180,
+    "turn_in_place": true,
 		"park_stamp": {
 			"shape": "sphere",
 			"cost": 20,
@@ -176,9 +176,6 @@
 		},
 		"selection_response": {
 			"cue": "/SE/Selection/commander"
-		},
-		"sing_selection_response": {
-			"cue": "/SE/UI/plus/sing"
 		}
 	},
 	"selection_icon": {
