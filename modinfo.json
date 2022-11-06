@@ -1,7 +1,7 @@
 {
   "context": "server",
   "identifier": "com.pa.lilly.mod.server",
-  "display_name": "lilly mod galactic_war",
+  "display_name": "lilly mod server",
   "description": "lilly mod",
   "author": "lilly",
   "version": "1.1.1",
