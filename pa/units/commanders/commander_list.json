@@ -1,5 +1,6 @@
 {
   "commanders": [
+    "/pa/units/commanders/base_commander/base_commander_lilly.json",
     "/pa/units/commanders/imperial_able/imperial_able.json",
     "/pa/units/commanders/imperial_aceal/imperial_aceal.json",
     "/pa/units/commanders/imperial_alpha/imperial_alpha.json",
